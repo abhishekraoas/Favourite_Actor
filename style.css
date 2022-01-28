@@ -249,7 +249,7 @@ img {
 }
 
 #identity {
-    overflow: auto;
+    overflow: hidden;
 }
 
 .thumbnail {

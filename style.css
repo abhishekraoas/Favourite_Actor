@@ -51,7 +51,8 @@ mark {
     line-height: 15px;
     font-family: fantasy;
 }
-.heart {
+
+.heart a{
     text-decoration: none;
     color: red;
     font-size: 20px;

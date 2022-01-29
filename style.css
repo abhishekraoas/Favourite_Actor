@@ -1,4 +1,4 @@
-body,
+
 html {
     width: 100%;
     height: 100%;
@@ -21,7 +21,7 @@ p {
 }
 
 a:hover {
-    background-color: rgb(251, 152, 246);
+    background-color: rgb(33, 207, 10);
 }
 
 #header {
@@ -35,12 +35,26 @@ a:hover {
 h3 {
     font-weight: 900;
 }
+h2{
+    font-size: 50px;
+    color: darkblue;
+    text-transform: capitalize;
+}
+mark {
+    font-weight: bold;
+}
 
 .logo {
     float: left;
     height: 50px;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 30px;
+    line-height: 15px;
+    font-family: fantasy;
+}
+.heart {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
 }
 
 .container {
@@ -94,6 +108,8 @@ li>a {
     color: rgb(221, 53, 53);
     padding: 14px 16px;
     float: right;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .listing {
@@ -184,6 +200,7 @@ td {
     padding: 15px;
     border: 1px solid #a4a4a4;
     height: 30px;
+    font-weight: bold;
 }
 
 th {
@@ -235,6 +252,7 @@ th {
 .box {
     display: inline-block;
     width: 50%;
+    font-weight: bold;
     /* float:left; */
 }
 
@@ -280,11 +298,14 @@ img {
 
 .input {
     border: orchid;
-    background-color: #745ef0;
+    background-color: #09013a;
     color: rgb(235, 241, 234);
     font-size: 16px;
     margin: 4px -4px;
     padding: 20px 25px;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bold;
 }
 
 footer {

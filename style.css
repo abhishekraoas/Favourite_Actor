@@ -1,4 +1,4 @@
-body,
+
 html {
     width: 100%;
     height: 100%;
@@ -21,7 +21,7 @@ p {
 }
 
 a:hover {
-    background-color: rgb(251, 152, 246);
+    background-color: rgb(33, 207, 10);
 }
 
 #header {
@@ -35,12 +35,27 @@ a:hover {
 h3 {
     font-weight: 900;
 }
+h2{
+    font-size: 50px;
+    color: darkblue;
+    text-transform: capitalize;
+}
+mark {
+    font-weight: bold;
+}
 
 .logo {
     float: left;
     height: 50px;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 30px;
+    line-height: 15px;
+    font-family: fantasy;
+}
+
+.heart a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
 }
 
 .container {
@@ -48,6 +63,15 @@ h3 {
     margin: auto;
     width: 100%;
     overflow-x: hidden;
+}
+@media (min-width:180px) {
+.container{width: 180px}
+
+  .logo{
+    width: fit-content;
+    line-height: 28px;
+    margin-top: -10px;
+    }
 }
 
 @media (min-width:320px) {
@@ -94,15 +118,25 @@ li>a {
     color: rgb(221, 53, 53);
     padding: 14px 16px;
     float: right;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .listing {
-    border: paleturquoise;
+    border: 2px solid sienna;
     display: block;
-    color: none;
-    padding: 0px;
+    padding: 0;
     float: none;
-    margin: auto;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: darkblue;
+    font-family: monospace;
+    font-weight: bolder;
+    text-align: center;
+    background-color: chartreuse;
+    width: 60%;
+    border-radius: 10px;
 }
 
 a:active {
@@ -176,6 +210,7 @@ td {
     padding: 15px;
     border: 1px solid #a4a4a4;
     height: 30px;
+    font-weight: bold;
 }
 
 th {
@@ -227,6 +262,7 @@ th {
 .box {
     display: inline-block;
     width: 50%;
+    font-weight: bold;
     /* float:left; */
 }
 
@@ -249,7 +285,7 @@ img {
 }
 
 #identity {
-    overflow: auto;
+    overflow: hidden;
 }
 
 .thumbnail {
@@ -272,11 +308,14 @@ img {
 
 .input {
     border: orchid;
-    background-color: #745ef0;
+    background-color: #09013a;
     color: rgb(235, 241, 234);
     font-size: 16px;
     margin: 4px -4px;
     padding: 20px 25px;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bold;
 }
 
 footer {

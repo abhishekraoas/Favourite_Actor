@@ -64,15 +64,14 @@ mark {
     width: 100%;
     overflow-x: hidden;
 }
-@media (min-width:200px) {
-.container{width: 200px}
+@media (min-width:180px) {
+.container{width: 180px}
 
-.logo{
-    width: fit-content;
+  .logo{
     width: fit-content;
     line-height: 28px;
-    margin-top: 1px;
-}
+    margin-top: -10px;
+    }
 }
 
 @media (min-width:320px) {

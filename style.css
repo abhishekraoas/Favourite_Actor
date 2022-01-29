@@ -64,6 +64,16 @@ mark {
     width: 100%;
     overflow-x: hidden;
 }
+@media (min-width:250px) {
+.container{width: 250px}
+
+.logo{
+    width: fit-content;
+    width: fit-content;
+    line-height: 28px;
+    margin-top: 1px;
+}
+}
 
 @media (min-width:320px) {
     .container {
